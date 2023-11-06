@@ -1,4 +1,4 @@
-WITH dim_locations AS (
+WITH dim_location AS (
     SELECT
         CONCAT(zip, '_', address) AS location_id,
         address,
@@ -13,4 +13,4 @@ WITH dim_locations AS (
 --SELECT DISTINCT *
 --FROM dim_location
 
-select * from  dim_locations
+select * from  dim_location
