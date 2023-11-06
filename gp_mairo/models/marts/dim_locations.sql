@@ -2,11 +2,11 @@ WITH dim_location AS (
     SELECT
         CONCAT(zip, '_', address) AS location_id,
         address,
-        city,
-        state,
+        'San Francisco' AS city,
+        'California' AS state,
         zip,
-        longitude,
-        latitude
+        client_location.longitude AS longitude,
+        client_location.latitude AS latitude
     FROM {{ ref("stg_eviction") }}
 )
 
