@@ -13,4 +13,4 @@ WITH dim_location AS (
 --SELECT DISTINCT *
 --FROM dim_location
 
-select * from  dim_location
+select * from  dim_locations
