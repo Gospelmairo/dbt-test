@@ -20,7 +20,8 @@ models:
         description: >
           The address where the eviction notice was issued. The addresses are represented at the block level.
         tests:
-          - unique
+          - not_null
+              
 
       - name: city
         description: >
