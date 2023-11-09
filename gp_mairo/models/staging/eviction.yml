@@ -6,7 +6,7 @@ sources:
     database: loftyiceberg
     # schema: Main_eviction009
     tables:
-      - name: eviction_data
+      - name: eviction_data_table
       
         # freshness:
         #   warn_after: {count: 12, period: hour}
